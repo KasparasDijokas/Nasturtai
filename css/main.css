@@ -12,7 +12,8 @@ body {
     z-index: 3;
 }
 a {
-    color: #9AE17B;
+    color: #FFFFFF;
+	text-transform: uppercase;
 }
 
 /* ************ 
@@ -123,7 +124,20 @@ a {
  
   /*************** CATALOG NAV  **************/
 
-  .catalog-nav a {
+.catalog-nav a {
     color: #007bff;
   }
-  
+    /*************** WORKING HOURS **************/
+.business-hours{
+	font-size: 13px;
+}
+.business-hours li {
+	line-height: 30px;
+	border-bottom: 1px solid #333; 
+	}
+.business-hours li:last-child {
+	border-bottom: none; 
+	}
+.business-hours .opening-hours li.today {
+	color: #9AE17B; 
+	}
