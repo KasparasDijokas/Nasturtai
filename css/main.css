@@ -17,7 +17,7 @@ body {
 
 #hero {
     height: 100vh;
-    background: url("../img/icon/hero.jpg") bottom center/ cover no-repeat;
+    background: url("../img/greenhouse.jpg.jpg") bottom center/ cover no-repeat;
 }
 #hero h1, p {
     font-weight: 400;
