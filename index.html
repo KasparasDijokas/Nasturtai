@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.css">
     <link rel="icon" href="img/icon/favicon.png">
-    <title>Hello, world!</title>
+    <title>Nasturta</title>
   </head>
   <body>
 
     <section id="navbar">
-      <nav class="navbar navbar-expand-md fixed-top">
+      <nav class="navbar navbar-expand-md fixed-top main-nav">
         <a class="navbar-brand ml-5" href="#">
           <img src="img/icon/logo2.png" width="180px" class="d-inline-block align-top" alt="logo-image">
         </a>
@@ -21,7 +22,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto mr-5">
+          <ul class="navbar-nav ml-auto mr-5 text-white">
             <li class="nav-item">
               <a class="nav-link" href="#">Pradžia<span class="sr-only">(current)</span></a>
             </li>
@@ -29,7 +30,7 @@
               <a class="nav-link" href="#">Apie mus</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gėlės</a>
+              <a class="nav-link" href="products.html">Tavaras</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -57,21 +58,11 @@
           <h1 class="display-5 mb-0">NASTURTA</h1>
           <h1 class="display-2">Simply the best</h1>
           <p class="lead d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, hic?</p>
-          <button id="book" class="btn btn-lg btn-primary px-5" data-toggle="modal" data-target="#bookingModal">Prekės</button>
+          <a href="products.html" id="buy" class="btn btn-lg px-5">Prekės</a>
       </div>
     </section>
 
-    <!-- <section id="hero">
-      <div class="container-fluid p-0">
-        <div class="overlay"></div>
-          <div class="hero-text">
-            <h1>Nasturta</h1>
-            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, tempore!</p>
-          </div>
-      </div>
-    </section> -->
-
-    <section>
+    <section id="resume" class="mt-5">
       <div class="container text-center">
         <h1>Kas mes?</h1>
         <img src="img/icon/logo2.png" width="100" alt="">
@@ -102,18 +93,109 @@
       </div>
     </section>
 
-    <section>
-      <div class="container gallery">
-        <img src="img/basil.jfif" class="basil" alt="">
-        <img src="img/braske.jfif" class="braske" alt="">
-        <img src="img/geranium.jfif" class="geranium" alt="">
-        <img src="img/rose.jfif" class="rose" alt="">
-        <img src="img/tomato.jfif" class="tomato" alt="">
+    <section id="gallery">
+      <div class="container gallery mt-5">
+        <img src="img/basil.jfif" class="gallery-img basil img-fluid" alt="">
+        <img src="img/braske.jfif" class="gallery-img braske img-fluid" alt="">
+        <img src="img/geranium.jfif" class="gallery-img geranium img-fluid" alt="">
+        <img src="img/rose.jfif" class="gallery-img rose img-fluid" alt="">
+        <img src="img/tomato.jfif" class="gallery-img tomato img-fluid" alt="">
+        <img src="img/basil.jfif" class="gallery-img tomato2 img-fluid" alt="">
       </div>
     </section>
+
+    <section class="discount">
+      <div class="container mt-5 text-center">
+        <h1 class="display-5">xadavoj tavar</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, ratione.</p>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/basil.jfif" alt="">
+          </div>
+          <div class="col-lg-4">
+            <img src="img/basil.jfif" alt="">
+          </div>
+          <div class="col-lg-4">
+            <img src="img/basil.jfif" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="location">
+      <div class="container mt-5 ">
+        <h2>Kur mus rasti</h2>
+        <div class="row justify-content-between">
+          <div class="card col-3" style="width: 18rem;">
+            <img src="img/daigai.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card col-5" style="width: 18rem;">
+            <img src="img/daigai.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card col-3" style="width: 18rem;">
+            <img src="img/daigai.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container-fluid bg-light mt-5 py-5 text-center">
+        <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <h3>Vilnius</h3>
+            <p>Nasturtų g. 15</p>
+            <p>11116</p>
+            <p>+37060779785</p>
+          </div>
+          <div class="col-4">
+            <h3>Folow us on</h3>
+            <i class="fab social fa-facebook-f"></i>
+            <i class="fab social fa-instagram-square"></i>
+            <i class="fas social fa-envelope-open-text"></i>
+          </div>
+          <div class="col-4">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pradžia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Apie mus</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gėlės</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kontaktai</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <span onclick="backToTop()" id="btn" title="Go to top"><i class="fas fa-chevron-up"></i></span>
     
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

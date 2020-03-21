@@ -3,21 +3,25 @@ body {
 }
 
 /************ navbar  ***********/
-.hero-text {
-    z-index: 2;
-}
 
-.navbar a {
-    color: white;
-    /* font-size: 1.1rem; */
+.main-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}
+a {
+    color: #9AE17B;
 }
 
 /* ************ 
 /************ hero  ***********/
 
 #hero {
-    height: 100vh;
-    background: url("../img/greenhouse.jpg.jpg") bottom center/ cover no-repeat;
+    min-height: 750px;
+    background: url("../img/greenhouse.jpg") top center/ cover no-repeat;
+    position: relative;
 }
 #hero h1, p {
     font-weight: 400;
@@ -37,15 +41,89 @@ body {
     background: rgba(0, 0, 0, 0.5);
 }
 
-
+/***************** GALLERY  *************/
 .gallery {
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
-    grid-template-rows: repeat(2, minmax(200px, 1fr));
-    grid-template-areas: 
-    "img-1 img-1 img-2 img-3"
-    "img-4 img-5 img-5 img-3"
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 20px;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .basil {
-    grid-area: img-1;
+    grid-column: 1 / 3;
+    grid-row: 1 / 6;
 }
+.braske {
+    grid-column: 3 / 6;
+    grid-row: 1 / 4;
+}
+.geranium {
+    grid-column: 3 / 6;
+    grid-row: 4 / 6;
+}
+.rose {
+    grid-column: 6 / 9;
+    grid-row: 1 / 5;
+}
+.tomato2 {
+    grid-column: 6 / 9;
+    grid-row: 5 / 9;
+}
+.tomato {
+    grid-column: 1 / 6;
+    grid-row: 6 / 9;
+}
+
+
+/*************** BACK TO TOP ****************/
+
+#btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none; 
+    outline: none;
+    color: #007bff; 
+    cursor: pointer;
+    padding: 15px;
+    font-size: 2rem; 
+    border-radius: 50%;
+  }
+  
+  #btn:hover {
+    transition: font-size .5s;
+    font-size: 3rem;
+  }
+
+
+  /*********** SOCIAL  ***********/
+
+  .social {
+      font-size: 2rem;
+      padding: 20px;
+      color: #9AE17B;
+  }
+
+
+  /*************** BUTTONS  **************/
+
+ .btn {
+     background-color: #9AE17B;
+ }
+
+ 
+  /*************** CATALOG NAV  **************/
+
+  .catalog-nav a {
+    color: #007bff;
+  }
+  
