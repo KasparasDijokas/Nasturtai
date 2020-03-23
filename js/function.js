@@ -46,11 +46,8 @@ function renderGallery(list) {
         
         let show = false;
 
-        // if ( filter === 'all' ) {
-        //     for ( let i=0; i<DOMproduct.length; i++ ) {
-        //         DOMproduct[i].classList.add('d-none');
-        //     }
-        //     return;
+        // if (filter === 'all') {
+        //     DOMproduct[i].classList.remove('d-none');
         // }
 
         for (let i=0; i<prekes.length; i++) {

@@ -16,50 +16,68 @@
   <body>
 
     <section id="navbar">
-      <nav class="navbar navbar-expand-md fixed-top main-nav">
-        <a class="navbar-brand ml-5" href="#">
-          <img src="img/logo/logo2.png" width="180px" class="d-inline-block align-top" alt="logo-image">
+      <nav class="navbar navbar-expand-xl main-nav mt-1">
+        <a class="navbar-brand ml-5" href="index.html">
+          <img src="img/logo/logo-light.png" width="180px" alt="logo-image">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="toggler"><i class="fas fa-bars toggler"></i></span>
         </button>
+
+        <!-- dropdown -->
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto mr-5 text-white">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Apie mus</a>
-            </li>
-			 <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Asortimentas
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Rožės</a>
-                <a class="dropdown-item" href="#">Vasarinės</a>
-                <a class="dropdown-item" href="#">Svyrančios</a>
-                <a class="dropdown-item" href="#">Uogų daigai</a>
-                <a class="dropdown-item" href="#">Daržovių daigai</a>
-				<a class="dropdown-item" href="#">Prieskoniai</a>
+            <div class="row container">
+
+              <div class="col-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#resume">Apie mus</a>
+                </li>
               </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="products.html">Užsakymo sąlygos</a>
-            </li>
-          
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Kontaktai</a>
-            </li>
+
+              <div class="col-3">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Asortimentas
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Rožės</a>
+                    <a class="dropdown-item" href="#">Vasarinės</a>
+                    <a class="dropdown-item" href="#">Svyrančios</a>
+                    <a class="dropdown-item" href="#">Uogų daigai</a>
+                    <a class="dropdown-item" href="#">Daržovių daigai</a>
+                    <a class="dropdown-item" href="#">Prieskoniai</a>
+                  </div>
+                </li>
+              </div>
+
+              <div class="col-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#location">Užsakymo sąlygos</a>
+                </li>
+              </div>
+
+              <div class="col-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Kontaktai</a>
+                </li>
+              </div>
+
+            </div>
           </ul>
         </div>
+
+
       </nav>
     </section>
 
     <section id="hero" class="d-flex justify-content-center align-items-center">
       <div id="overlay"></div>
-      <div id="header" class="container text-white text-center">
-          <h1 class="display-5 mb-0">NASTURTÀ</h1>
-          <h1 class="display-2">Mūsų šeimos augalų ūkis</h1>
-          <p class="lead d-none d-md-block">Auginame daugiau nei 200 skirtingų augalų – nuo prieskoninių žolelių iki rožių sodinukų</p>
-          <a href="products.html" id="buy" class="btn btn-lg px-5">Prekės</a>
+      <div id="header" class="container text-white text-center mb-5">
+          <h2 class="mb-1">NASTURTÀ</h2>
+          <h1 class="">Mūsų šeimos augalų ūkis</h1>
+          <p class="d-md-block">Auginame daugiau nei 200 skirtingų augalų – nuo prieskoninių žolelių iki rožių sodinukų</p>
+          <a href="products.html" id="buy" class="btn btn-lg px-5 btn-info mt-4">ASORTIMENTAS</a>
       </div>
     </section>
 
@@ -94,7 +112,7 @@
     </section>
 
     <section id="gallery">
-      <h1 class="text-center mt-5">Prekės n shit</h1>
+      <h1 class="text-center mt-5">Asortimentas n shit</h1>
       <div class="container gallery mt-5">
         <div class="item item1">
           <img src="img/basil.jfif" class="gallery-img basil img-fluid" alt="">
@@ -184,22 +202,13 @@
 
     <section id="location">
       <div class="container mt-5 ">
-<<<<<<< HEAD
-        <h2 class="container text-center" >Kur mus rasti?</h2>
-        <div class="row justify-content-between " style="text-align: justify;">
-=======
         <h2 class="container text-center" >Užsakymo sąlygos</h2>
-        <div class="row justify-content-between">
->>>>>>> b5d17e07ce75ebf8ec36f46484df1748293a2914
+        <div class="row justify-content-between " style="text-align: justify;">
           <div class="card col-3" style="width: 18rem;">
             <img src="img/daigai.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Kalvarijų turgavietė</h5>
-<<<<<<< HEAD
               <p class="card-text text-center">Mus galite rasti kioske x, kuriame prekiaujame nuo balandžio pradžios iki Lapkričio 1 dienos. <b>ALIGN ME PLEASE</b></p>
-=======
-              <p class="card-text">2020 m. balandžio–rugpjūčio mėn. Kalvarijų turgus, Kalvarijų g. 61, Vilnius Sodinukų zona, prekybos vieta nr. 27 (įėjimas iš H. Manto g., šalia parduotuvės „Žalia stotelė”). Atsiskaitymas – tik grynaisiais.</p>
->>>>>>> b5d17e07ce75ebf8ec36f46484df1748293a2914
 			  <div class="container demo-bg">
 				<div class="row">
 					<div class="business-hours" class="col-sm-12">
