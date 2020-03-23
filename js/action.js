@@ -1,0 +1,2 @@
+renderGallery(prekes);
+

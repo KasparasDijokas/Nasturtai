@@ -12,10 +12,10 @@ body {
     left: 0;
     z-index: 3;
 }
-a {
+/* a {
     color: #FFFFFF;
 	text-transform: uppercase;
-}
+} */
 
 /* ************ 
 /************ hero  ***********/
@@ -24,6 +24,7 @@ a {
     min-height: 750px;
     background: url("../img/greenhouse.jpg") top center/ cover no-repeat;
     position: relative;
+    opacity: 0.9;
 }
 #hero h1, p {
     font-weight: 400;
@@ -43,82 +44,7 @@ a {
     background: rgba(0, 0, 0, 0.5);
 }
 
-/***************** GALLERY  *************/
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 5vw);
-    grid-gap: 20px;
-    position: relative;
-}
 
-.gallery-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transition: .5s ease;
-}
-
-.item1 {
-    grid-column: 1 / 5;
-    grid-row: 1 / 6;
-}
-.item2 {
-    grid-column: 5 / 8;
-    grid-row: 1 / 4;
-}
-.item3 {
-    grid-column: 5 / 8;
-    grid-row: 4 / 6;
-}
-.item4 {
-    grid-column: 8 / 13;
-    grid-row: 1 / 9;
-}
-.item5 {
-    grid-column: 5 / 8;
-    grid-row: 6 / 9;
-}
-.item6 {
-    grid-column: 1 / 5;
-    grid-row: 6 / 9;
-}
-
-
-.item {
-    position: relative;
-}
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    width: 90%;
-  }
-  
-  .item:hover .gallery-img {
-    opacity: 0.2;
-  }
-  
-  .item:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    /* background-color: #4CAF50; */
-    color: black;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
-
-  .text h3 {
-      font-weight: bold;
-  }
 
 
 /*************** BACK TO TOP ****************/
@@ -155,9 +81,9 @@ a {
 
   /*************** BUTTONS  **************/
 
- /* .btn {
+ .btn {
      background-color: #9AE17B;
- } */
+ }
 
  
   /*************** CATALOG NAV  **************/
@@ -165,6 +91,16 @@ a {
 .catalog-nav a {
     color: #007bff;
   }
+
+  .nav-link {
+      font-size: 1.125rem;
+      margin: 0 10px;  }
+
+      .nav-link:hover {
+        transition: all .5s ease;
+        font-size: 1.15rem;
+        margin: 0 10px;  
+    }
     /*************** WORKING HOURS **************/
 .business-hours{
 	font-size: 13px;
