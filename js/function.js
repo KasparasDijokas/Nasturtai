@@ -9,10 +9,9 @@ function renderGallery(list) {
 
     // render content 
     for (let i=0; i<list.length; i++) {
-        
         const category = list[i];
         
-        content += ` <div class="card mb-3 col-5 p-0 d-none" style="max-width: 540px;">
+        content += ` <div class="card mb-3 col-5 p-0" style="max-width: 540px;">
         <div class="row no-gutters">
         <div class="col-md-4">
         <img src="./img/${category.img}" class="card-img" alt="image">
@@ -35,30 +34,21 @@ function renderGallery(list) {
     // creating event listeners
     const filterItems = document.querySelectorAll('.catalog-nav .nav-link');
     
-    for(let i=0; i<filterItems.length; i++) {
+    for (let i=0; i<filterItems.length; i++) {
         filterItems[i].addEventListener('click', updateGallery);
     }
+
     // update gallery
     function updateGallery(event) {
         const filter = event.target.textContent.toUpperCase();
         const DOMproduct = document.querySelectorAll('.card');
-        // console.log(filter);
         
         let show = false;
-
-       
 
         for (let i=0; i<prekes.length; i++) {
             const tag = prekes[i].tag.toUpperCase();
             console.log('tagas', tag);
-            // console.log('------------'); 
             console.log('filter', filter);
-
-            if (filter === '') {
-                filter = 'prieskoniai';
-                DOMproduct[i].classList.remove('d-none');
-            }
-            
 
             if ( filter === tag) {
                 DOMproduct[i].classList.remove('d-none');
@@ -75,3 +65,13 @@ function renderGallery(list) {
         return;
     }
     
+
+    function renderStart(data) {
+        const DOMproduct = document.querySelectorAll('.card');
+        for (let i=0; i<data.length; i++) {
+            if (data[i].tag !== 'prieskoniai') {
+                DOMproduct[i].classList.add('d-none');
+            }
+        }
+        return;
+    }

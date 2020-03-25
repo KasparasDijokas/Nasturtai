@@ -1,5 +1,4 @@
-/******* layout
- ********/
+/*************** LAYOUT ****************/
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -42,9 +41,7 @@
     grid-row: 6 / 9;
 }
 
-/******** 
-    lightbox
- ********/
+/*************** LIGHTBOX ****************/
  #gallery {
      padding: 3rem 0;
  }
@@ -70,7 +67,6 @@
      padding: 4px;
      background-color: black;
      border: 2px solid white;
-     /* position: relative; */
  }
 
 /*************** GALLERY IMAGE OVERLAY ****************/
@@ -83,12 +79,12 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transition: translate (-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .fa-search-plus {
     font-size: 2rem;
-    color: rgb(83, 78, 78);
+    color: rgb(65, 62, 62);
 }
 
 .div:hover .grid-img {

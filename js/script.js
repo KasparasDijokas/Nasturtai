@@ -13,13 +13,6 @@ function scrollFunction() {
 }
 
 
-// for the working hours in bazaar card
-$(document).ready(function() {
-$('.opening-hours li').eq(new Date().getDay() - 1).addClass('today');
-});
-
-
-
 // NAVIGATION 
 
 const navSlide = () => {
@@ -53,9 +46,7 @@ const navSlide = () => {
 navSlide();
 
 
-/******* 
- lightbox
- ********/
+/*************** LIGHTBOX ****************/
 
  const lightbox = document.createElement('div');
  lightbox.id = 'lightbox';

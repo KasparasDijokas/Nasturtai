@@ -1,4 +1,5 @@
-/************ main-nav  ***********/
+
+/*************** MAIN_NAV ****************/
 
 .main-nav {
     position: absolute;
@@ -32,7 +33,7 @@
     text-transform: uppercase;
 }
 
-/* burger  */
+/*************** BURGER ****************/
 .burger {
     display: none;
 }
@@ -66,13 +67,17 @@ a::after {
     width: 100%;
     transition: width .3s;
 }
+.footer-nav a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
 
 .nav-link {
     font-size: 1.125rem;
     margin: 0 10px; 
   }
 
-
+/*************** MEDIA ****************/
 
 
 @media screen and (max-width: 1124px) {

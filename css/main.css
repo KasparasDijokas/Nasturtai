@@ -27,7 +27,7 @@ body {
   }
   
   #btn:hover {
-    transition: font-size .5s;
+    transition: all .5s;
     font-size: 3rem;
   }
 
@@ -35,7 +35,7 @@ body {
  /*************** FOOTER ****************/
 
  #footer {
-    background: #363636;
+    background: #343a40;
     padding: 10px;
 }
 
@@ -65,7 +65,7 @@ body {
       justify-content: space-around;
   }
 
-  
+
   @media (max-width: 1024px) {
       .flex {
           flex-direction: column;
@@ -82,33 +82,7 @@ body {
         flex-direction: column;
     }
 }
-
-
-
-
-/*************** WORKING HOURS **************/
-.business-hours{
-	font-size: 13px;
-}
-.business-hours li {
-	line-height: 30px;
-	border-bottom: 1px solid #333; 
-	}
-.business-hours li:last-child {
-	border-bottom: none; 
-	}
-.business-hours .opening-hours li.today {
-	color: #9AE17B; 
-    }
     
-
-/*************** Products.html ****************/
-
-.catalog-nav a {
-    color: black;
-}
-
-
 
 /*************** ABOUT US ****************/
 
