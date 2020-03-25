@@ -52,6 +52,27 @@
     color: #17a2b8;
 }
 
+a::after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 2px;
+    display: block;
+    background: #fff;
+    transition: width .3s;
+}
+
+.main-nav a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.nav-link {
+    font-size: 1.125rem;
+    margin: 0 10px; 
+  }
+
+
 
 
 @media screen and (max-width: 1124px) {

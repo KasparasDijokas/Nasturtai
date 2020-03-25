@@ -1,0 +1,34 @@
+/* ************ 
+hero  
+***********/
+
+#hero {
+    min-height: 750px;
+    background: url("../img/bg/bg10.jpg") top / cover no-repeat;
+    position: relative;
+}
+
+#hero h1 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+#hero h2 {
+    font-weight: bold;
+    font-style: initial;
+    letter-spacing: 20px;
+}
+
+#header {
+    z-index: 2;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+}

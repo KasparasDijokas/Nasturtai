@@ -46,15 +46,18 @@ function renderGallery(list) {
         
         let show = false;
 
-        // if (filter === 'all') {
-        //     DOMproduct[i].classList.remove('d-none');
-        // }
+       
 
         for (let i=0; i<prekes.length; i++) {
             const tag = prekes[i].tag.toUpperCase();
             console.log('tagas', tag);
             // console.log('------------'); 
             console.log('filter', filter);
+
+            if (filter === '') {
+                filter = 'prieskoniai';
+                DOMproduct[i].classList.remove('d-none');
+            }
             
 
             if ( filter === tag) {

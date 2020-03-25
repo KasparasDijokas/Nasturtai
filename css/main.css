@@ -1,3 +1,5 @@
+/*************** MAIN ****************/
+
 html {
     scroll-behavior: smooth;
   }
@@ -7,60 +9,7 @@ body {
     background: #f4f7f6;
 }
 
-a::after {
-    content: '';
-    display: inline-block;
-    width: 0;
-    height: 2px;
-    display: block;
-    background: #fff;
-    transition: width .3s;
-}
-
-.main-nav a:hover::after {
-    width: 100%;
-    transition: width .3s;
-}
-
-
-/* ************ 
-/************ hero  ***********/
-
-#hero {
-    min-height: 750px;
-    background: url("../img/bg/bg10.jpg") top / cover no-repeat;
-    position: relative;
-    /* opacity: 0.8; */
-}
-#hero h1 {
-    font-weight: bold;
-    font-size: 4rem;
-    
-}
-#hero h2 {
-    font-weight: bold;
-    font-style: initial;
-    letter-spacing: 20px;
-}
-
-#header {
-    z-index: 2;
-}
-
-#overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-
-
-
-/*************** BACK TO TOP ****************/
+/*************** BACK TO TOP BUTTON ****************/
 
 #btn {
     display: none;
@@ -83,38 +32,61 @@ a::after {
   }
 
 
-  /*********** SOCIAL  ***********/
+ /*************** FOOTER ****************/
+
+ #footer {
+    background: #363636;
+    padding: 10px;
+}
+
+#footer p {
+    padding: 10px 0;
+    margin: 0;
+    color: #fff;
+}
+
+#footer a {
+    display: inline-block;
+}
+
+#footer .nav-link {
+    padding: 10px 0;
+    color: #fff;
+}
 
   .social {
-      font-size: 2rem;
-      padding: 20px;
-      color: #9AE17B;
+      font-size: 1.5rem;
+      padding: 10px 20px;
+      color: #fff;
   }
 
-
-  /*************** BUTTONS  **************/
-
- /* .btn {
-     background-color: #9AE17B;
- } */
-
- 
-  /*************** CATALOG NAV  **************/
-
-.catalog-nav a {
-    color: #007bff;
+  .flex {
+      display: flex;
+      justify-content: space-around;
   }
 
-  .nav-link {
-      font-size: 1.125rem;
-      margin: 0 10px;  }
+  
+  @media (max-width: 1024px) {
+      .flex {
+          flex-direction: column;
+          text-align: center;
+      }
+      .footer-nav {
+          display: flex;
+          justify-content: space-evenly;
+      }
+  }
+  @media (max-width: 600px) {
 
-      .nav-link:hover {
-        transition: all .5s ease;
-        font-size: 1.15rem;
-        margin: 0 10px;  
+    .footer-nav {
+        flex-direction: column;
     }
-    /*************** WORKING HOURS **************/
+}
+
+
+
+
+/*************** WORKING HOURS **************/
 .business-hours{
 	font-size: 13px;
 }
@@ -130,158 +102,17 @@ a::after {
     }
     
 
-      /*********** RESUME  ***********/
-
-#resume h3 {
-    font-weight: bold;
-    letter-spacing: 3px;
-}
-
-
-
 /*************** Products.html ****************/
 
 .catalog-nav a {
     color: black;
 }
 
-#footer {
-    background: #363636;
-}
-
-.footer-nav li a{
-    font-size: 16px;
-    padding: 0;
-    color: #696767;;
-}
 
 
+/*************** ABOUT US ****************/
 
-
-.name {
-    position: absolute;
-    top: 8px;
-    left: 8px;
-    background-color: #000;
-    color: white;
-    padding: 6px 8px;
-    border-radius: 10px;
-    font-size: 1.125rem;
-}
-
-
-/* GALLERY  */
-
-.gallery-img {
-    width: 100%;
-    height: 328px;
-    object-fit: cover;
-}
-
-.gallery-container {
-    width: 100%;
-    margin-top: 10%;
-    letter-spacing: 1px;
-}
-
-.gallery-container h2 {
-    background-color: #0062cc;
-    color: #fff;
-    width: 300px;
-    font-size: 24px;
-    padding: 5px;
-    height: 40px;
-    position: relative;
-}
-
-.gallery-container h2::after {
-    content: '';
-    border-top: 40px solid #0062cc;
-    border-right: 40px solid transparent;
-    position: absolute;
-    right: -40px;
-    top: 0;
-}
-
-.gallery-row {
-    margin-top: 30px;
-}
-
-.product-bottom .fas {
-    color: #28a745;
-    font-size: 10px;
-}
-
-.product-bottom h3 {
-    font-size: 15px;
-    font-weight: bold;
-}
-/* .product-bottom h5 {
-    font-size: 15px;
-    padding-bottom: 10px;
-} */
-
-.gallery-btn {
-    background-color: #28a745;
-}
-
-.overlay {
-    display: block;
-    opacity: 0;
-    position: absolute;
-    top: 5%;
-    margin-left: 0;
-    width: 70px;
-}
-
-.product-top:hover .overlay {
-    opacity: 1;
-    margin-left: 5%;
-    transition: 0.5s;
-}
-/* .overlay .fas {
-    cursor: pointer;
+.about-us {
     background-color: #fff;
-    color: #000;
-    height: 35px;
-    width: 35px;
-    font-size: 20px;
-    padding: 7px;
-    margin: 5%;
-    margin-bottom: 5%;
-} */
-
-.fa-shopping-cart {
-    cursor: pointer;
-    color: #000;
-    font-size: 2rem;
-    height: 35px;
-    width: 35px;
-    padding: 7px;
+    padding: 3rem 0 6rem;
 }
-
-.overlay .btn-secondary {
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none;
-}
-  
-/* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) { 
-
-    
- }
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-
- }
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    
- }
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
- }

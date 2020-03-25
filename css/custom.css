@@ -1,2 +1,7 @@
-/* @import './gallery.css'; */
+@import './lightbox.css';
+@import './hero.css';
+@import './asortimentas.css';
+@import './gallery.css';
+
 @import './navbar.css';
+@import './divider.css';
