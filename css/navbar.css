@@ -30,6 +30,7 @@
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 1rem;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
@@ -68,6 +69,14 @@ a::after {
     transition: width .3s;
 }
 .footer-nav a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+.contacts-nav a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+.main-nav-2 a:hover::after {
     width: 100%;
     transition: width .3s;
 }

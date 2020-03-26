@@ -14,9 +14,9 @@
 /*************** DIVIDER ****************/
 
 #asortimentas h2 {
-    background-color: #5ba7b3;
+    background: linear-gradient(to right, #e4f5fc 0%,#2ab0ed 0%,#bfe8f9 50%,#9fd8ef 100%);
     color: #fff;
-    width: 300px;
+    width: 200px;
     font-size: 24px;
     padding: 5px;
     height: 40px;
@@ -25,7 +25,8 @@
 
 #asortimentas h2::after {
     content: '';
-    border-top: 40px solid #5ba7b3;
+    border-top: 40px solid #9fd8ef;
+    background-color: linear-gradient(to right, #b3dced 0%,#29b8e5 100%,#bce0ee 100%,#29b8e5 102%);
     border-right: 40px solid transparent;
     position: absolute;
     right: -40px;

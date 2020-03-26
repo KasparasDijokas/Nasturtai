@@ -1,68 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="icon" href="img/icon/favicon.png">
     <title>Nasturta</title>
   </head>
 <body>
-
-    <section id="navbar">
-        <nav class="navbar navbar-expand-md bg-dark mb-5">
-          <a class="navbar-brand ml-5" href="#">
-            <img src="img/logo/logo-light.png" width="180px" class="d-inline-block align-top" alt="logo-image">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon toggler"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto mr-5 text-white">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Pradžia<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Apie mus</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Gėlės</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Gėlės
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Prieskoniai</a>
-                  <a class="dropdown-item" href="#">Svyrančios</a>
-                  <a class="dropdown-item" href="#">Braškių daigai</a>
-                  <a class="dropdown-item" href="#">Rožės</a>
-                  <a class="dropdown-item" href="#">Šiaip gėlukės</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Kontaktai</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </section>
+    <div class="products-container">
+      <nav class="main-nav-2" id="top">
+        <div class="logo">
+            <img src="img/logo/logo-light.png" class="logo-img" width="180px" alt="logo-image">
+        </div>
+        <ul class="nav-links">
+            <li>
+            <a href="index.html">Pradžia</a>
+            </li>
+            <li>
+                <a href="index.html#about-us">Apie mus</a>
+            </li>
+            <li>
+                <a href="products.html">Asortimentas</a>
+            </li>
+            <li>
+                <a href="index.html#delivery">Užsakymo sąlygos</a>
+            </li>
+            <li>
+                <a href="contact.html">Kontaktai</a>
+            </li>
+            <li>
+              <span href="" class="exit"><i class="far fa-times-circle "></i></span>
+          </li>
+        </ul>
+        <div class="burger">
+          <i class="fas fa-bars bars"></i>
+        </div>
+      </nav>
 
       <section id="catalog-nav">
         <div class="container catalog-nav">
           <ul class="nav justify-content-center">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="#">Prieskoniai</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">daržovės</a>
+              <a class="nav-link effect-5" href="#">daržovės</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Braškių daigai</a>
+              <a class="nav-link effect-5" href="#"><span>Braškių daigai</span> </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Rožės</a>
@@ -73,14 +63,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#">SvyranČios</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">all</a>
-            </li> -->
           </ul>
         </div>
       </section>
-
-
 
       <section >
         <div class="container">
@@ -90,46 +75,40 @@
         </div>
       </section>
 
-      <section id="footer">
-        <div class="container-fluid bg-light mt-5 py-5 text-center">
-          <div class="container">
-          <div class="row">
-            <div class="col-4">
-              <h3>Vilnius</h3>
-              <p>Nasturtų g. 15</p>
-              <p>11116</p>
-              <p>+37060779785</p>
-            </div>
-            <div class="col-4">
-              <h3>Folow us on</h3>
-              <i class="fab social fa-facebook-f"></i>
-              <i class="fab social fa-instagram-square"></i>
-              <i class="fas social fa-envelope-open-text"></i>
-            </div>
-            <div class="col-4">
-              <ul class="nav flex-column">
+      <section id="footer" class="products-footer">
+        <div class="flex">
+          <div class="flex">
+            <p>&copy; 2020 Nasturta</p>
+          </div>
+          <div >
+              <ul class="nav footer-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pradžia</a>
+                  <a class="nav-link" href="#resume">Apie mus</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Apie mus</a>
+                  <a class="nav-link" href="products.html">Asortimentas</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Gėlės</a>
+                  <a class="nav-link" href="#location">Užsakymo sąlygos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Kontaktai</a>
+                  <a class="nav-link" href="contact.html">Kontaktai</a>
                 </li>
               </ul>
-            </div>
+          </div>
+          <div>
+              <a href=""><i class="fab social fa-facebook-f"></i></a>
+              <a href=""><i class="fab social fa-instagram-square"></i></a>
+              <a href=""><i class="fas social fa-envelope-open-text"></i></a>
           </div>
         </div>
-        </div>
       </section>
-
-      <script src="js/script.js"></script>
+    </div>
+  </div>
+  <a href="#top" class="back-to-top" id="btn" title="Go to top"><i class="fas fa-chevron-up"></i></a>
     <script src="js/data.js"></script>
     <script src="js/function.js"></script>
     <script src="js/action.js"></script>
+    
 </body>
 </html>

@@ -1,2 +1,3 @@
 renderGallery(prekes);
 renderStart(prekes);
+

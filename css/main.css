@@ -35,14 +35,14 @@ body {
  /*************** FOOTER ****************/
 
  #footer {
-    background: #343a40;
+    background: #212934;
     padding: 10px;
 }
 
 #footer p {
     padding: 10px 0;
     margin: 0;
-    color: #fff;
+    color: rgba(255,255,255,0.8);
 }
 
 #footer a {
@@ -51,13 +51,13 @@ body {
 
 #footer .nav-link {
     padding: 10px 0;
-    color: #fff;
+    color:rgba(255,255,255,0.8);
 }
 
   .social {
       font-size: 1.5rem;
       padding: 10px 20px;
-      color: #fff;
+      color: rgba(255,255,255,0.8);
   }
 
   .flex {
@@ -90,3 +90,110 @@ body {
     background-color: #fff;
     padding: 3rem 0 6rem;
 }
+
+/*************** Contact.html ****************/
+
+/* sticky footer */
+.footer-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.container-contact {
+    flex: 1;
+    margin-top: 3rem;
+}
+
+
+/*************** product.html ****************/
+
+/* main-navigacija */
+
+.main-nav-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100px;
+    background-color: #343a40;
+}
+
+/* products-navigacija */
+.catalog-nav {
+    margin-top: 2rem;
+}
+.catalog-nav .nav-link {
+    color: #1e1e1f;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 1.25rem;
+}
+
+.catalog-nav .nav-link {
+    padding: 0 1rem;
+}
+
+/* hover  */
+.catalog-nav .nav-link:hover {
+    transition: .3s ease;
+    color: rgba(133, 133, 133, 0.8);
+    transform: scale(1.1);
+}
+
+
+.nav-link.active {
+    border-bottom: 2px solid rgba(133, 133, 133, 0.8);
+}
+.link.active {
+    border-bottom: 2px solid #fff;
+}
+
+/* sticky footer */
+
+.products-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.products-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#catalog {
+    padding-bottom: 100px;
+}
+
+/* active class */
+
+
+
+
+
+/*************** h1 after ****************/
+
+/* .h1 {
+    text-align: start;
+    margin-bottom: 40px;
+}
+.h1::before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 90px;
+    height: 3px;
+    bottom: -15px;
+    left: 90px;
+    background-color: rgb(105, 152, 240);
+}
+.h1::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    height: 2px;
+    bottom: -25px;
+    right: 33%;
+    background-color:  rgb(105, 152, 240);
+} */
