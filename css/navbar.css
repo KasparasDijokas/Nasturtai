@@ -24,7 +24,7 @@
     list-style: none;
 }
 
-.nav-links li a {
+.nav-links a {
     text-decoration: none;
     color: #fff;
     font-size: 1rem;
@@ -81,6 +81,10 @@ a::after {
     transition: width .3s;
 }
 
+.nav-link {
+    font-size: 1.125rem;
+    margin: 0 10px; 
+  }
 
 /*************** MEDIA ****************/
 

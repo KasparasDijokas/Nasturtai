@@ -148,7 +148,7 @@ body {
 .nav-link.active {
     border-bottom: 2px solid rgba(133, 133, 133, 0.8);
 }
-.link.aktyvi {
+.link.active {
     border-bottom: 2px solid #fff;
 }
 
