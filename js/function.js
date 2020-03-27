@@ -139,7 +139,7 @@ let link2 = document.querySelectorAll('.link');
 
 link2.forEach(links => {
   links.addEventListener('click', function (){
-    link2.forEach(link2 => link2.classList.remove('active'));
-    this.classList.add('active');
+    link2.forEach(link2 => link2.classList.remove('aktyvi'));
+    this.classList.add('aktyvi');
   });
 });

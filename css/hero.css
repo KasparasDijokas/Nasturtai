@@ -9,14 +9,16 @@ hero
 }
 
 #hero h1 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 4rem;
+    letter-spacing: 6px;
 }
 
 #hero h2 {
     font-weight: bold;
     font-style: initial;
     letter-spacing: 20px;
+    font-family: 'Crimson Text', serif;
 }
 
 #header {

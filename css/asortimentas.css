@@ -4,110 +4,109 @@
     width: 100%;
     margin-top: 10%;
     letter-spacing: 1px;
-    margin: 3rem 0;
+    margin: 4rem 0;
+    text-align: center;
 }
 
-.asortimentas-row {
-    margin-top: 30px;
-}
-
-/*************** DIVIDER ****************/
-
-#asortimentas h2 {
-    background: linear-gradient(to right, #e4f5fc 0%,#2ab0ed 0%,#bfe8f9 50%,#9fd8ef 100%);
-    color: #fff;
-    width: 200px;
-    font-size: 24px;
-    padding: 5px;
-    height: 40px;
+.product-top {
     position: relative;
 }
 
-#asortimentas h2::after {
+.asortimentas-row {
+    margin-top: 3rem;
+}
+
+/*************** h1 and DIVIDER ****************/
+
+.divider {
+    font-family: "Cormorant Garamond";
+    color: #3e3e3e;
+    font-weight: 700;
+    margin: 0;
+}
+.after {
+    position: relative;
+    color: #a6a6a6;
+}
+
+.after::before {
     content: '';
-    border-top: 40px solid #9fd8ef;
-    background-color: linear-gradient(to right, #b3dced 0%,#29b8e5 100%,#bce0ee 100%,#29b8e5 102%);
-    border-right: 40px solid transparent;
+    display: inline-block;
     position: absolute;
-    right: -40px;
-    top: 0;
+    width: 80px;
+    height: 1px;
+    background-color: #a6a6a6;
+    left: -88px;
+    top: 10px;
+}
+.after::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    background-color: #a6a6a6;
+    right: -88px;
+    top: 10px;
 }
 
 /*************** IMAGES and button and text ****************/
 
 .asortimentas-img {
-    width: 100%;
-    height: 328px;
+    width: 240px;
+    height: 240px;
     object-fit: cover;
-}
-
-.product-bottom .fas {
-    color: #28a745;
-    font-size: 10px;
+    border-radius: 100%;
+    cursor: pointer;
 }
 
 .product-bottom h3 {
-    font-size: 1.5rem;
-    text-align: start;
+    font-size: 1.6rem;
+    text-align: center;
     margin-top: 1rem;
     padding: 0;
-    font-family: 'Muli', sans-serif;
+    font-family: "Cormorant Garamond";
+    font-weight: 700;
 }
 .product-bottom p {
-    text-align: start;
-    font-family: 'Muli', sans-serif;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    padding: 0 10px;
+    margin-bottom: 40px;
 }
-.product-bottom .btn {
-    float: left;
-}
+
 
 /*************** OVERLAY ****************/
 
-  
-  .item:hover .gallery-img {
-    opacity: 0.2;
-  }
-  
-  .item:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    color: black;
-    font-size: 1rem;
-    padding: 16px 32px;
-    overflow: hidden;
-  }
-
   .overlay2 h3 {
-      font-weight: bold;
+    font-family: "Cormorant Garamond";
       font-size: 1.5rem;
+      font-weight: 700;
       text-transform: uppercase;
+      cursor: pointer;
+  }
+  .overlay2 p {
+      color: #646464;
+      font-size: 14px;
+      cursor: pointer;
   }
 
 .overlay2 {
-    transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -30%);
-    text-align: start;
-    width: 80%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 .product-top:hover .overlay2 {
     opacity: 1;
     margin-top: 5px;
-    transition: 0.5s;
+    transition: .4s ease;
 }
 .product-top:hover .asortimentas-img {
+    transition: .5s;
     opacity: 0.1;
 }
-
-.product-top:hover .overlay2 {
-    opacity: 1;
-    transition: 1s ease;
-}
-
-
 

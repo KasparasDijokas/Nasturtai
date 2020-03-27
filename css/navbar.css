@@ -24,14 +24,13 @@
     list-style: none;
 }
 
-.nav-links a {
+.nav-links li a {
     text-decoration: none;
     color: #fff;
-    letter-spacing: 1px;
-    font-weight: bold;
     font-size: 1rem;
     letter-spacing: 1px;
     text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /*************** BURGER ****************/
@@ -70,6 +69,7 @@ a::after {
 }
 .footer-nav a:hover::after {
     width: 100%;
+    background-color: #999;
     transition: width .3s;
 }
 .contacts-nav a:hover::after {
@@ -81,10 +81,6 @@ a::after {
     transition: width .3s;
 }
 
-.nav-link {
-    font-size: 1.125rem;
-    margin: 0 10px; 
-  }
 
 /*************** MEDIA ****************/
 
