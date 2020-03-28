@@ -261,7 +261,7 @@ const prekes = [
       {
         name: "Našlaitė",
         price: 0,
-        description: "sonoo",
+        description: "Vienos anksčiausiai pavasarį žydinčių gėlių. Svarbiausia jų ypatybė – žiedų įvairovė ir nesudėtinga priežiūra. Nors našlaitės yra dvimetės, dažniausiai auginamos kaip vienametės.",
         img: "kalvarijai.jpg",
         tag: "vasarinės gėlės"
       },
@@ -289,7 +289,7 @@ const prekes = [
       {
         name: "Begonija",
         price: 0,
-        description: "SD",
+        description: "Kitaip vadinami ledinukais, tai vienmetės, smulkiais žiedais žydinčios gėlės. Dėl storų ir vaškuotų lapelių toleruoja trumpalaikes sausras, žydi iki pat šalnų.",
         img: "kalvarijai.jpg",
         tag: "vasarinės gėlės"
       },
@@ -345,42 +345,42 @@ const prekes = [
       {
         name: "Bakopa",
         price: 0,
-        description: "sonoo",
+        description: "Smulkūs bakopų žiedeliai itin atsparūs nepalankioms augimo sąlygoms. Jie nepraranda savo grožio net  po užsitęsusio lietaus. Bakopos numeta pradėjusius vysti žiedus, todėl augalas visada atrodo gražiai.",
         img: "surfinija.jpg",
         tag: "svyrančios gėlės"
       },
       {
         name: "Verbena",
         price: 0,
-        description: "Svyranti",
+        description: "Vienmetė ir labai gausiai ištisą vasarą žydinti gėlė, puikiai tinkama balkonų konteineriams, pakabinamiems vazonams, nusvyranti iki 40cm.",
         img: "surfinija.jpg",
         tag: "svyrančios gėlės"
       },
       {
         name: "Begonija",
         price: 0,
-        description: "Svyranti",
+        description: "daugiametis augalas, tačiau mūsų klimato sąlygomis nežiemoja, todėl gėlynams apželdinti naudojama kaip vienmetė gėlė. Puikiai tinka auginti balkonuose. Mėgsta lengvą, derlingą dirvą, patinka saulėta vieta, nors neblogai auga ir pavėsyje.",
         img: "surfinija.jpg",
         tag: "svyrančios gėlės"
       },
       {
         name: "Surfinija",
         price: 0,
-        description: "sonoo",
+        description: "Tai gana reikli gėlė, tačiau su tinkama priežiūra, ji gali žydėti visą vasaros sezoną. Tam būtina gilus vazonas, reguliarus laistymas bei tręšimas ir nužydėjusių žiedų pašalinimas.",
         img: "surfinija.jpg",
         tag: "svyrančios gėlės"
       },
       {
         name: "Palergonija",
         price: 0,
-        description: "Svyranti",
+        description: "Nuostabios svyrančios gėlės, skirtos auginti pakabinamuose loviuose arba aukštuose pastatomuose konteineriuose. Ši gėlė prieš šalnas parnešta į namus gali sėkmingai peržiemoti.",
         img: "surfinija.jpg", 
         tag: "svyrančios gėlės"
       },
       {
         name: "Kalibrachoja",
         price: 0,
-        description: "known as Smulkiažiedė surfinija",
+        description: "Taip pat vadinama smulkiažiede surfinija, kurią  puošia spalvingi, nuolat besiskleidžiantys įvairių spalvų ryškūs žiedai, panašūs į smulkius petunijų žiedelius.",
         img: "surfinija.jpg",
         tag: "svyrančios gėlės"
       } 
