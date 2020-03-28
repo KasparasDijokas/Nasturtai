@@ -170,84 +170,84 @@ const prekes = [
       {
         name: "Žemuogė Rugen",
         price: 0,
-        description: "Remontantinės",
+        description: "Remontantinė, visasezonė veislė, tad derlingumas trunka iki pat pirmųjų šalnų. Nesiplečia antžeminiais ūgliais (ūsais), o derančios uogos - ypač aromatingos ir stambios.",
         img: "braske.jfif",
-        tag: "braškių daigai"
+        tag: "Braškės ir žemuogės"
       },
       {
         name: "Honeoye",
         price: 0,
-        description: "sonoo",
+        description: "Veislė sukurta JAV, vidutinio ankstyvumo, labai derlinga. Uogos kūginės formos, didelės. Odelė ryškiai raudona iki tamsiai raudonos. Minkštimas šviesiai raudonas, sultingas, gero skonio.",
         img: "braske.jfif",
         tag: "Braškės ir žemuogės"
       },
       {
         name: "Polka",
         price: 0,
-        description: "sonoo",
+        description: "Veislė vidutinio ankstyvumo, labai derlinga. Uogos stambios, vienodos formos, intensyviai raudonos spalvos ir labai gero skonio.",
         img: "braske.jfif",
         tag: "Braškės ir žemuogės"
       },
       {
         name: "Elkat",
         price: 0,
-        description: "sonoo",
+        description: "Veislė išvesta sukryžminus Elsanta ir Dukat veisles. Vidutinio ankstyvumo desertinių uogų veislė, turinti geriausias motininių veislių savybes. Uogos didelės, tvirtos konsistencijos, plataus kūgio formos.",
         img: "braske.jfif",
         tag: "Braškės ir žemuogės"
       },
       {
         name: "Senga Sengana",
         price: 0,
-        description: "sonoo",
+        description: "Veislė sukurta Vokietijoje. Veislė vėlyva, labai derlinga. Uogos stambios ir vidutinio stambumo, širdiškai apvalios, tamsiai rusvai raudonos.",
         img: "braske.jfif",
         tag: "Braškės ir žemuogės"
       },
       {
         name: "Dukat",
         price: 0,
-        description: "sonoo",
+        description: "Veislė sukurta Lenkijoje, vidutinio ankstyvumo, labai derlinga. Uogos didelės ir labai didelės, apvalios arba plačiai kūginės. Odelė ryškiai raudona.",
         img: "braske.jfif",
         tag: "Braškės ir žemuogės"
       },
       {
         name: "Grandarosa",
         price: 0,
-        description: "sonoo",
+        description: "Veislė sukurta Lenkijoje. Tai ankstyva veislė, garantuojanti ypač didelį derlių. Gana atspari miltligei.",
         img: "braske.jfif",
         tag: "Braškės ir žemuogės"
       },
       {
         name: "San Andreas",
         price: 0,
-        description: "Remontantinės",
+        description: "Remontantinė veislė, tad duoda pastovų derlių visą sezoną. Itin atspari ligoms.",
         img: "braske.jfif",
         tag: "Braškės ir žemuogės"
       },
       {
         name: "Arbatinės",
         price: 0,
-        description: "sonoo",
+        description: "Žiedai stambūs (10-15 cm skersmens), gražios formos, pavieniai arba žiedynuose po 2-5. Mūsų sąlygomis žydi nuo birželio vidurio iki pat šalčių. Žiedai pačių įvairiausių spalvų.",
         img: "rose2.jpg",
         tag: "Rožių sodinukai"
       },
       {
         name: "Krūminės",
         price: 0,
-        description: "sonoo",
+        description: "Krūmai 1-3 m aukščio, įvairių formų, su smulkiais, vidutiniais ir stambiais dygliais, kurie dažnai būna dekoratyvūs. Žiedynuose po 3-15 žiedų. Žydi vieną arba du kartus. Galima auginti pavieniais krūmais arba didesne grupe.",
         img: "rose2.jpg",
         tag: "Rožių sodinukai"
       },
       {
         name: "Vijoklinės",
         price: 0,
-        description: "sonoo",
+        description: "Per vasarą žydi tik vieną kartą. Žiedai smulkūs, 2 — 3 cm skersmens, išsidėstę per visą stiebą, dekoratyvūs iki 15 — 20 dienų. Kadangi žiedyne pražysta ne visi žiedai vienu metu, todėl jie būna dekoratyvūs nuo 20 iki 60 dienų.",
         img: "rose2.jpg",
         tag: "Rožių sodinukai"
       },
       {
         name: "Floribundinės",
         price: 0,
-        description: "sonoo",
+        description: "Krūmai daugiausia neaukšti, kompaktiški. Žiedai įvairūs — nuo tuščiavidurių iki pilnavidurių. Žydi nuo birželio vidurio iki pat pat šalčių. Žiedynai itin gausūs, kiekvienas po 17-40 žiedų.",
         img: "rose2.jpg",
         tag: "Rožių sodinukai"
       },
@@ -405,9 +405,9 @@ const tavar = [
     {
       name: "Žemuogė Rugen",
       price: 0,
-      description: "Remontantinės",
+      description: "",
       img: "braske.jfif",
-      tag: "braškių daigai"
+      tag: "Daržovės"
     },
     {
       name: "Arbatinės",
