@@ -175,3 +175,8 @@ body {
     background-color: #fff;
     padding: 2rem 0 3rem;
 }
+
+
+.card-text {
+    font-size: 14px;
+}

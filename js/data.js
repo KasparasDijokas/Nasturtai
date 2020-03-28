@@ -2,7 +2,7 @@ const prekes = [
     {
         name: "Porai",
         price: 0,
-        description: "Vasariniai",
+        description: "Vasariniaiasdasdasdas VasariniaiVasariniaiVasariniaiVasariniaiVasariniaiVasariniai  ",
         img: "daigai.jpg",
         tag: "prieskoniai"
       },
