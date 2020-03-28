@@ -9,84 +9,84 @@ const prekes = [
       {
         name: "Mairūnai",
         price: 0,
-        description: "sonoo",
+        description: "Gerai auga šiltoje, saulėtoje vietoje, humusingoje, gerai įdirbtoje, lengvo priemolio ar priesmėlio dirvoje. Mairūną galima auginti ir virtuvėje ant palangės ar balkone.",
         img: "daigai.jpg",
         tag: "prieskoniai"
       },
       {
         name: "Bazilikai",
         price: 0,
-        description: "Raudonasis/ Žaliasis",
+        description: "Bazilikas gali būti auginamas darže, šiltnamyje, bet taip pat kuo puikiausiai jis gali vešėti balkone ar virtuvėje ant palangės. Svarbiausia, kad tai būtų saulėta vieta. Auginame raudonąjį ir žaliąjį baziliką.",
         img: "daigai.jpg",
         tag: "prieskoniai"
       },
       {
         name: "Petražolės",
         price: 0,
-        description: "Šakninės/ lapinės / garbanotos",
+        description: "Petražolės puikiai jausis net ir šaltą vasarą, optimali augimo temperatūra - 20 laipsnių. Petražolės mėgsta saikingą laistymą, nes perlaisčius, gali imti pūti. Petražolės reiklios priežiūrai: reikia nuolat ravėti, o paaugusias retinti. Auginame šaknines, lapines bei garbanotas petražoles.",
         img: "daigai.jpg",
         tag: "prieskoniai"
       },
       {
         name: "Salierai",
         price: 0,
-        description: "Lapiniai/ lapkotiniai/ šakniniai",
+        description: "Salierams reikia derlingo dirvožemio, kuris negreitai išdžiūsta. Kad augalas būtų aromatingas, augavietė turi būti pakankamai saulėta. Auginame lapinius, lapkotinius bei šakninius salierus.",
         img: "daigai.jpg",
         tag: "prieskoniai"
       },
       {
         name: "Kalendros",
         price: 0,
-        description: "sonoo",
+        description: "Kalendra gerai auga lengvose, derlingose silpnai rūgščiose dirvose; blogai auga priemolinguose, glėjiškuose, sunkiuose dirvožemiuose. Geriausiai auga pavėsingose vietose.",
         img: "daigai.jpg",
         tag: "prieskoniai"
       },	
       {
         name: "Rozmarinai",
         price: 0,
-        description: "sonoo",
+        description: "Rozmarinus reikia auginti vazonuose. Vasarą juos reiktų išnešti į lauką. Veši šviesiose vietose ir saulėkaitoje. Žiemą laikomi tik uždarose patalpose, kur temperatūra būna 5 - 10°C ir šviesiose vietose. Šiltame kambaryje džiūsta, meta lapelius ir žūva.",
         img: "daigai.jpg",
         tag: "prieskoniai"
       },
       {
         name: "Čiobreliai",
         price: 0,
-        description: "sonoo",
+        description: "Vaistinis čiobrelis gerai auga atviroje, saulėtoje vietoje ir kalkingoje, puveningoje dirvoje.",
         img: "daigai.jpg",
         tag: "prieskoniai"
       },
       {
         name: "Gelsvės",
         price: 0,
-        description: "sonoo",
+        description: "Nors tai nereiklus daugiametis augalas, jis mėgsta purią derlingą dirvą. Auga ir saulėtose vietose, ir pavėsyje, todėl jas galima auginti daržo pakraštyje. Svarbiausia, kad augalas turėtų pakankamai vietos, mat gali užaugti itin didelis.",
         img: "daigai.jpg",
         tag: "prieskoniai"
       },
       {
         name: "Raudonėliai",
         price: 0,
-        description: "sonoo",
+        description: "Raudonėlis nemėgsta rūgščių, užmirkusių ir gerai įtręštų dirvų. Aromatingiausi būna saulėtoje ir atviroje vietoje augantys augalai. Lengviau pakenčia sausrą nei drėgmės perteklių.",
         img: "daigai.jpg",
         tag: "prieskoniai"
       },
       {
         name: "Levandos",
         price: 0,
-        description: "sonoo",
+        description: "Levanda yra sausų vietų augalas, mėgstantis nelabai derlingas priesmėlio arba žvyringas vietas, kuriose po lietaus neužsistovi vanduo. Antras būtinas sėkmingam levandos augimui dalykas yra saulė, jos turi būti kuo daugiau.",
         img: "daigai.jpg",
         tag: "prieskoniai"
       },	 
       {
         name: "Melisa",
         price: 0,
-        description: "vaistinė",
+        description: "Vaistinė melisa - tai šilumai labai reiklus augalas, todėl parinkta vieta turi būti apsaugota nuo vėjo ir saulėta. Melisa mėgsta lengvą, drėgną ir trąšų dirvožemį",
         img: "daigai.jpg",
         tag: "prieskoniai"
       },
       {
         name: "Mėta",
         price: 0,
-        description: "Šokoladinė/ Braškinė/ Paprastoji",
+        description: "Mėtos yra gana nereiklios, tad puikiai augtų bet kokioje dirvoje. Auginame paprastąją, šokoladinę bei braškinę mėtas.",
         img: "daigai.jpg",
         tag: "prieskoniai"
       },
