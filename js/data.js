@@ -398,7 +398,7 @@ const prekes = [
       {
         name: "Krūminės",
         price: 0,
-		d1: "Po 3-15 žiedų.",
+		d1: "Po 3 - 15 žiedų.",
 		d2: "1 - 3 m.",
 		d3: "Stambūs, puošnūs, gebantys augti be atramos.",
 		n1: "ŽIEDYNAI: ",
@@ -422,7 +422,7 @@ const prekes = [
       {
         name: "Floribundinės",
         price: 0,
-		d1: "Žiedynai itin gausūs, kiekvienas po 17-40 žiedų.",
+		d1: "Itin gausūs, kiekvienas po 17-40 žiedų.",
 		d2: "iki 1 m.",
 		d3: "Nestambūs, kompaktiški.",
 		n1: "ŽIEDYNAI: ",
