@@ -16,7 +16,7 @@ function renderGallery(list) {
         </div>
         <div class="col-md-8">
         <div class="card-body">
-        <h5 class="card-title">${category.name}</h5>
+        <h5 class="card-title products-title">${category.name}</h5>
         <p class="card-text">${category.description}</p>
         </div>
         </div>
@@ -32,7 +32,7 @@ function renderGallery(list) {
     // render prieskoniai uzejus i products.html
     function renderStart(data) {
         const DOMproduct = document.querySelectorAll('.card');
-        for (let i=0; i<data.length; i++) {
+        for (let i=0; i < data.length; i++) {
             if (data[i].tag !== 'prieskoniai') {
                 DOMproduct[i].classList.add('d-none');
             }
