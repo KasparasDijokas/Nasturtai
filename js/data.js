@@ -4,7 +4,7 @@ const prekes = [
         price: 0,
         description: "Vasariniai",
         img: "daigai.jpg",
-        tag: "prieskoniai"
+        tag: "Daržovių daigai"
       },
       {
         name: "Mairūnai",
@@ -95,77 +95,77 @@ const prekes = [
         price: 0,
         description: "ankstyvi(žemaūgiai), vidutinio - vėlyvumo (Aukštaūgiai, žemaūgiai)",
         img: "basil.jfif",
-        tag: "daržovės"
+        tag: "Daržovių daigai"
       },
       {
         name: "Paprika",
         price: 0,
         description: "Raudona, geltona",
         img: "basil.jfif",
-        tag: "daržovės"
+        tag: "Daržovių daigai"
       },
       {
         name: "Čili pipirai",
         price: 0,
         description: "maži (vyšnios dydžio), vėlyvą rudenį galima parnešti namo",
         img: "basil.jfif",
-        tag: "daržovės"
+        tag: "Daržovių daigai"
       },
       {
         name: "Agurkai",
         price: 0,
         description: "Mirabelle (savidulkiai), Rodničiok, Stremski",
         img: "basil.jfif",
-        tag: "daržovės"
+        tag: "Daržovių daigai"
       },
       {
         name: "Moliūgai",
         price: 0,
         description: "Muskatiniai",
         img: "basil.jfif",
-        tag: "daržovės"
+        tag: "Daržovių daigai"
       },
       {
         name: "Cukinija",
         price: 0,
         description: "Žalios",
         img: "basil.jfif",
-        tag: "daržovės"
+        tag: "Daržovių daigai"
       },
       {
         name: "Kopūstai",
         price: 0,
         description: "ankstyvi, vėlyvi",
         img: "basil.jfif",
-        tag: "daržovės"
+        tag: "Daržovių daigai"
       },
       {
         name: "Kalafijorai",
         price: 0,
         description: "also known as žiediniai kopūstai. ankstyvi",
         img: "basil.jfif",
-        tag: "daržovės"
+        tag: "Daržovių daigai"
       },
       {
         name: "Brokoliai",
         price: 0,
         description: "vidutinio - vėlyvumo",
         img: "basil.jfif",
-        tag: "daržovės"
+        tag: "Daržovių daigai"
       },
       {
         name: "Burokėliai",
         price: 0,
         description: "Apvalūs",
         img: "basil.jfif",
-        tag: "daržovės"
+        tag: "Daržovių daigai"
       },
       {
         name: "Baklažanai",
         price: 0,
         description: "Apvalūs",
         img: "basil.jfif",
-        tag: "daržovės"
+        tag: "Daržovių daigai"
       },
       {
         name: "Žemuogė Rugen",
@@ -179,77 +179,77 @@ const prekes = [
         price: 0,
         description: "sonoo",
         img: "braske.jfif",
-        tag: "braškių daigai"
+        tag: "Braškės ir žemuogės"
       },
       {
         name: "Polka",
         price: 0,
         description: "sonoo",
         img: "braske.jfif",
-        tag: "braškių daigai"
+        tag: "Braškės ir žemuogės"
       },
       {
         name: "Elkat",
         price: 0,
         description: "sonoo",
         img: "braske.jfif",
-        tag: "braškių daigai"
+        tag: "Braškės ir žemuogės"
       },
       {
         name: "Senga Sengana",
         price: 0,
         description: "sonoo",
         img: "braske.jfif",
-        tag: "braškių daigai"
+        tag: "Braškės ir žemuogės"
       },
       {
         name: "Dukat",
         price: 0,
         description: "sonoo",
         img: "braske.jfif",
-        tag: "braškių daigai"
+        tag: "Braškės ir žemuogės"
       },
       {
         name: "Grandarosa",
         price: 0,
         description: "sonoo",
         img: "braske.jfif",
-        tag: "braškių daigai"
+        tag: "Braškės ir žemuogės"
       },
       {
         name: "San Andreas",
         price: 0,
         description: "Remontantinės",
         img: "braske.jfif",
-        tag: "braškių daigai"
+        tag: "Braškės ir žemuogės"
       },
       {
         name: "Arbatinės",
         price: 0,
         description: "sonoo",
         img: "rose2.jpg",
-        tag: "rožės"
+        tag: "Rožių sodinukai"
       },
       {
         name: "Krūminės",
         price: 0,
         description: "sonoo",
         img: "rose2.jpg",
-        tag: "rožės"
+        tag: "Rožių sodinukai"
       },
       {
         name: "Vijoklinės",
         price: 0,
         description: "sonoo",
         img: "rose2.jpg",
-        tag: "rožės"
+        tag: "Rožių sodinukai"
       },
       {
         name: "Floribundinės",
         price: 0,
         description: "sonoo",
         img: "rose2.jpg",
-        tag: "rožės"
+        tag: "Rožių sodinukai"
       },
       {
         name: "Medutis",
@@ -347,42 +347,42 @@ const prekes = [
         price: 0,
         description: "sonoo",
         img: "surfinija.jpg",
-        tag: "svyrančios"
+        tag: "svyrančios gėlės"
       },
       {
         name: "Verbena",
         price: 0,
         description: "Svyranti",
         img: "surfinija.jpg",
-        tag: "svyrančios"
+        tag: "svyrančios gėlės"
       },
       {
         name: "Begonija",
         price: 0,
         description: "Svyranti",
         img: "surfinija.jpg",
-        tag: "svyrančios"
+        tag: "svyrančios gėlės"
       },
       {
         name: "Surfinija",
         price: 0,
         description: "sonoo",
         img: "surfinija.jpg",
-        tag: "svyrančios"
+        tag: "svyrančios gėlės"
       },
       {
         name: "Palergonija",
         price: 0,
         description: "Svyranti",
         img: "surfinija.jpg", 
-        tag: "svyrančios"
+        tag: "svyrančios gėlės"
       },
       {
         name: "Kalibrachoja",
         price: 0,
         description: "known as Smulkiažiedė surfinija",
         img: "surfinija.jpg",
-        tag: "svyrančios"
+        tag: "svyrančios gėlės"
       } 
 ];
 
