@@ -254,7 +254,7 @@ const prekes = [
       {
         name: "Medutis",
         price: 0,
-        description: "tik balti",
+        description: "Tai itin gausiai baltai žydinti, be galo kvapni ir bites pritraukianti gėlė.",
         img: "kalvarijai.jpg",
         tag: "vasarinės gėlės"
       },
@@ -268,7 +268,7 @@ const prekes = [
       {
         name: "Margenis",
         price: 0,
-        description: "bordinis",
+        description: "Įspūdingas akcentas gėlynams, lengvai auginamas vazonuose. Lapai tamsiai raudoni su juodais apvadėliais. Žydi nuo lipeos iki rugsėjo mėnesio, o rudenį pražįsta smulkiais, žydrais žiedais.",
         img: "kalvarijai.jpg",
         tag: "vasarinės gėlės"
       },
@@ -282,7 +282,7 @@ const prekes = [
       {
         name: "Lobelija",
         price: 0,
-        description: "Krūminė",
+        description: "Nedideli, įvairių atspalvių melsvos ir baltos spalvos žiedeliai džiugina akį nuo birželio iki pat stipresnių šalčių. Nors gėlės žiedeliai maži, tačiau jų tiek daug, kad sudaro ištisinį žiedinį paviršių, o aktyviausio žydėjimo periodais lapų net nesimato.",
         img: "kalvarijai.jpg",
         tag: "vasarinės gėlės"
       },
@@ -303,42 +303,42 @@ const prekes = [
       {
         name: "Tagetės",
         price: 0,
-        description: "sonoo",
+        description: "Kitaip žinomi kaip serenčiai, tai mėgstantys šilumą ir nepakenčiantys šalnų augalai. Serenčius patariama auginti atviroje, saulėtoje vietoje, nors jie gali augti ir prietemoje.",
         img: "kalvarijai.jpg",
         tag: "vasarinės gėlės"
       },
       {
         name: "Žydrūnai",
         price: 0,
-        description: "sonoo",
+        description: "Ši gėlė mėgsta sunkesnę, kalkingą dirvą, saulėtą arba pusiau saulėtą vietą. Žydrūnas žydi ilgai ir gausiai mėlynos spalvos žiedais. Į pastovią augimo vietą sodinamas praėjus šalnų pavojui.",
         img: "kalvarijai.jpg",
         tag: "vasarinės gėlės"
       },
       {
         name: "Palergonija",
         price: 0,
-        description: "Krūminė",
+        description: "Krūminės palergonijos nesunkiai ištveria sausras ir gali palaukti lašelio vandens. O jeigu jos laiku paliejamos ir patręšiamos, be pertraukos žydės iki stipresnių šalnų.",
         img: "kalvarijai.jpg",
         tag: "vasarinės gėlės"
       },
       {
         name: "Verbena",
         price: 0,
-        description: "Krūminė",
+        description: "Krūminė verbena sodinama lysvelėse, palangių bei balkonų dėžutėse. Ji mėgsta saulėtą, atvirą vietą. Dirvai ypatingų sąlygų nėra. ",
         img: "kalvarijai.jpg",
         tag: "vasarinės gėlės"
       },
       {
         name: "Jurginėliai",
         price: 0,
-        description: "Vasariniai",
+        description: "Vasariniai jurginai mėgsta šviesą ir erdvę, prastai auga žemose, drėgnose ar šaltose vietose.",
         img: "kalvarijai.jpg",
         tag: "vasarinės gėlės"
       },
       {
-        name: "Šlamutis",
+        name: "Žilasis šlamutis",
         price: 0,
-        description: "sonoo",
+        description: "Šlamutį galima sodinti kabančiuose krepšiuose, iš jų formuoti šaligatvio bortelius, taip pat tinka kiliminiams gėlynams",
         img: "kalvarijai.jpg",
         tag: "vasarinės gėlės"
       },
@@ -419,7 +419,7 @@ const tavar = [
     {
       name: "Medutis",
       price: 0,
-      description: "tik balti",
+      description: "",
       img: "kalvarijai.jpg",
       tag: "vasarinės gėlės"
     },
