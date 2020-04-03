@@ -17,7 +17,9 @@ function renderGallery(list) {
         <div class="col-md-8">
         <div class="card-body">
         <h5 class="card-title products-title">${category.name}</h5>
-        <p class="card-text">${category.description}</p>
+        <p class="card-text"> <span class ="card-point-name">${category.n1}</span> ${category.d1}</p>
+		<p class="card-text"><span class ="card-point-name">${category.n2}</span> ${category.d2}</p>
+		<p class="card-text"><span class ="card-point-name">${category.n3}</span> ${category.d3}</p>
         </div>
         </div>
           </div>
