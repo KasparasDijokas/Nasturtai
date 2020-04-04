@@ -1,0 +1,165 @@
+/*************** product.html ****************/
+
+/* main-navigacija */
+
+.main-nav-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100px;
+    background-color: #343a40;
+}
+
+/* products-navigacija */
+.catalog-nav {
+    margin-top: 2rem;
+}
+.catalog-nav ul {
+    margin-top: 2rem;
+}
+.catalog-nav .nav-link {
+    color: #1e1e1f;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 1.25rem;
+}
+
+.catalog-nav .nav-link {
+    padding: 0 1rem;
+}
+
+/* hover  */
+.catalog-nav .nav-link:hover {
+    transition: .3s ease;
+    color: rgba(133, 133, 133, 0.8);
+    transform: scale(1.1);
+}
+
+
+.nav-link.active {
+    color: rgb(100, 34, 221);
+    border-bottom: 2px solid rgb(44, 41, 41);
+    transform: scale(1.2);
+}
+.link.active {
+    border-bottom: 2px solid #fff;
+}
+
+/* sticky footer */
+
+.products-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.products-footer {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+}
+
+#catalog {
+    padding-bottom: 100px;
+}
+
+/*************** cards ****************/
+
+
+.products-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-point-name {
+    font-size: 12px;
+}
+
+.card-name h5 {
+    margin: 0;
+    padding: 20px;
+}
+
+.card-text {
+    font-size: 13px;
+    color: #000;
+}
+.card-point-name{
+	 /* color:rgba(20, 181, 183, 1); */
+	 font-weight: bold;
+}
+
+.card-body {
+    min-height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.asortimentas-nav {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 4px 0;
+    justify-content: space-evenly;
+}
+
+.asortimentas-nav a {
+    color: #000;
+    padding: 0px 8px;
+    font-size: 1.125rem;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.asortimentas-nav a::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 0;
+    background-color: rgb(141, 135, 135);
+}
+.asortimentas-nav a:hover::after {
+    
+    transition: all .4s;    
+    width: 100%;
+}
+
+.asortimentas-nav a.active {
+    border: 2px solid rgb(141, 135, 135);
+}
+
+
+@media(max-width: 454px) {
+    .asortimentas-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100px;
+    }
+}
+
+@media(max-width: 1196px) and (min-width: 454px) {
+    .asortimentas-nav {
+        display: flex;
+        /* width: 50%; */
+        flex-direction: column;
+        align-items: center;
+        min-height: 100px;
+    }
+
+}

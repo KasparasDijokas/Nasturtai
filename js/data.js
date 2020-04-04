@@ -8,7 +8,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "daigai.jpg",
+        img: "porai.jpg",
         tag: "Daržovių daigai"
       },
       {
@@ -20,7 +20,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "daigai.jpg",
+        img: "mairunai.jpg",
         tag: "prieskoniai"
       },
       {
@@ -32,7 +32,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "daigai.jpg",
+        img: "bazilikai.jfif",
         tag: "prieskoniai"
       },
       {
@@ -44,7 +44,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "daigai.jpg",
+        img: "petrazoles.jfif",
         tag: "prieskoniai"
       },
       {
@@ -56,7 +56,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "daigai.jpg",
+        img: "salierai.jfif",
         tag: "prieskoniai"
       },
       {
@@ -68,7 +68,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "daigai.jpg",
+        img: "kalendros.jpg",
         tag: "prieskoniai"
       },	
       {
@@ -80,7 +80,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "daigai.jpg",
+        img: "rozmarinai.jfif",
         tag: "prieskoniai"
       },
       {
@@ -92,7 +92,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "daigai.jpg",
+        img: "ciobreliai.jfif",
         tag: "prieskoniai"
       },
       {
@@ -104,7 +104,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "daigai.jpg",
+        img: "lovage.jfif",
         tag: "prieskoniai"
       },
       {
@@ -116,7 +116,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "daigai.jpg",
+        img: "oregano.jpg",
         tag: "prieskoniai"
       },
       {
@@ -128,7 +128,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "daigai.jpg",
+        img: "levandos.jpeg",
         tag: "prieskoniai"
       },	 
       {
@@ -140,7 +140,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "daigai.jpg",
+        img: "melisa.jpg",
         tag: "prieskoniai"
       },
       {
@@ -152,7 +152,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "daigai.jpg",
+        img: "meta.jpg",
         tag: "prieskoniai"
       },
       {
@@ -164,7 +164,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "basil.jfif",
+        img: "pomidorai.jpg",
         tag: "Daržovių daigai"
       },
       {
@@ -176,7 +176,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "basil.jfif",
+        img: "paprika2.jfif",
         tag: "Daržovių daigai"
       },
       {
@@ -188,7 +188,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "basil.jfif",
+        img: "cili.jfif",
         tag: "Daržovių daigai"
       },
       {
@@ -200,7 +200,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "basil.jfif",
+        img: "agurkai.jfif",
         tag: "Daržovių daigai"
       },
       {
@@ -212,7 +212,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "basil.jfif",
+        img: "moliugai.jpg",
         tag: "Daržovių daigai"
       },
       {
@@ -224,7 +224,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "basil.jfif",
+        img: "cukinija.jfif",
         tag: "Daržovių daigai"
       },
       {
@@ -236,7 +236,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "basil.jfif",
+        img: "kopustai.jfif",
         tag: "Daržovių daigai"
       },
       {
@@ -248,7 +248,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "basil.jfif",
+        img: "kalafijorai.jpg",
         tag: "Daržovių daigai"
       },
       {
@@ -260,7 +260,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "basil.jfif",
+        img: "brokoliai.jfif",
         tag: "Daržovių daigai"
       },
       {
@@ -272,7 +272,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "basil.jfif",
+        img: "burokeliai.jfif",
         tag: "Daržovių daigai"
       },
       {
@@ -284,7 +284,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "VARTOJIMAS: ",
 		n3: "SODINIMAS: ",
-        img: "basil.jfif",
+        img: "eggplant2.jfif",
         tag: "Daržovių daigai"
       },
       {
@@ -296,7 +296,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "UOGOS: ",
 		n3: "SODINIMAS: ",
-        img: "braske.jfif",
+        img: "rugen.jpg",
         tag: "Braškės ir žemuogės"
       },
       {
@@ -308,7 +308,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "UOGOS: ",
 		n3: "ATSPARUMAS: ",
-        img: "braske.jfif",
+        img: "honoja.jpg",
         tag: "Braškės ir žemuogės"
       },
       {
@@ -320,7 +320,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "UOGOS: ",
 		n3: "ATSPARUMAS: ",
-        img: "braske.jfif",
+        img: "polka.jfif",
         tag: "Braškės ir žemuogės"
       },
       {
@@ -332,7 +332,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "UOGOS: ",
 		n3: "ATSPARUMAS: ",
-        img: "braske.jfif",
+        img: "elkat.jpg",
         tag: "Braškės ir žemuogės"
       },
       {
@@ -344,7 +344,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "UOGOS: ",
 		n3: "ATSPARUMAS: ",
-        img: "braske.jfif",
+        img: "sengana.jpg",
         tag: "Braškės ir žemuogės"
       },
       {
@@ -356,7 +356,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "UOGOS: ",
 		n3: "ATSPARUMAS: ",
-        img: "braske.jfif",
+        img: "dukat.jfif",
         tag: "Braškės ir žemuogės"
       },
       {
@@ -368,7 +368,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "UOGOS: ",
 		n3: "ATSPARUMAS: ",
-        img: "braske.jfif",
+        img: "grandarosa.jpg",
         tag: "Braškės ir žemuogės"
       },
       {
@@ -380,7 +380,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "UOGOS: ",
 		n3: "ATSPARUMAS: ",
-        img: "braske.jfif",
+        img: "san-andreas.jfif",
         tag: "Braškės ir žemuogės"
       },
       {
@@ -392,7 +392,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "AUKŠTIS:",
 		n3: "ŽYDĖJIMAS: ",
-        img: "rose2.jpg",
+        img: "arbatine.jpg",
         tag: "Rožių sodinukai"
       },
       {
@@ -404,7 +404,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "AUKŠTIS: ",
 		n3: "ŽYDĖJIMAS: ",
-        img: "rose2.jpg",
+        img: "krumine.jpg",
         tag: "Rožių sodinukai"
       },
       {
@@ -416,7 +416,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "AUKŠTIS: ",
 		n3: "ŽYDĖJIMAS: ",
-        img: "rose2.jpg",
+        img: "vijokline.jpg",
         tag: "Rožių sodinukai"
       },
       {
@@ -428,7 +428,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "AUKŠTIS: ",
 		n3: "ŽYDĖJIMAS: ",
-        img: "rose2.jpg",
+        img: "floribundine.jpg",
         tag: "Rožių sodinukai"
       },
       {
@@ -440,7 +440,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-        img: "kalvarijai.jpg",
+        img: "medutis.jpg",
         tag: "vasarinės gėlės"
       },
       {
@@ -452,7 +452,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-        img: "kalvarijai.jpg",
+        img: "naslaite.jpg",
         tag: "vasarinės gėlės"
       },
       {
@@ -464,7 +464,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-        img: "kalvarijai.jpg",
+        img: "margenis.jfif",
         tag: "vasarinės gėlės"
       },
       {
@@ -476,7 +476,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-        img: "kalvarijai.jpg",
+        img: "lobelija.jfif",
         tag: "vasarinės gėlės"
       },
       {
@@ -488,7 +488,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-        img: "kalvarijai.jpg",
+        img: "begonija.jpg",
         tag: "vasarinės gėlės"
       },
       {
@@ -500,7 +500,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-        img: "kalvarijai.jpg",
+        img: "salvija.jfif",
         tag: "vasarinės gėlės"
       },
       {
@@ -512,7 +512,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-		img: "kalvarijai.jpg",
+		img: "serentis.jpg",
         tag: "vasarinės gėlės"
       },
       {
@@ -524,7 +524,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-        img: "kalvarijai.jpg",
+        img: "zydrunas.jpg",
         tag: "vasarinės gėlės"
       },
       {
@@ -536,7 +536,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-        img: "kalvarijai.jpg",
+        img: "pelargonija.jpg",
         tag: "vasarinės gėlės"
       },
       {
@@ -548,7 +548,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-        img: "kalvarijai.jpg",
+        img: "verbena.jpg",
         tag: "vasarinės gėlės"
       },
       {
@@ -560,7 +560,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-        img: "kalvarijai.jpg",
+        img: "jurginai.jpg",
         tag: "vasarinės gėlės"
       },
       {
@@ -572,7 +572,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-        img: "kalvarijai.jpg",
+        img: "slamutis.png",
         tag: "vasarinės gėlės"
       },
       {
@@ -584,7 +584,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-        img: "surfinija.jpg",
+        img: "bakopa.jpg",
         tag: "svyrančios gėlės"
       },
       {
@@ -596,7 +596,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-		img: "surfinija.jpg",
+		img: "verbena.jpg",
         tag: "svyrančios gėlės"
       },
       {
@@ -608,7 +608,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-		img: "surfinija.jpg",
+		img: "begonija-svyranti.jpg",
         tag: "svyrančios gėlės"
       },
       {
@@ -632,7 +632,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-		img: "surfinija.jpg", 
+		img: "pelargonija.jpg", 
         tag: "svyrančios gėlės"
       },
       {
@@ -644,7 +644,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-        img: "surfinija.jpg",
+        img: "kalibrachoja.jpg",
         tag: "svyrančios gėlės"
       } 
 ];

@@ -9,21 +9,23 @@ function renderGallery(list) {
   for (let i = 0; i < list.length; i++) {
     const category = list[i];
 
-    content += ` <div class="card mb-3 col-5 p-0" style="max-width: 540px;">
-        <div class="row no-gutters">
-        <div class="col-md-4">
-        <img src="./img/${category.img}" class="card-img" alt="image">
-        </div>
-        <div class="col-md-8">
-        <div class="card-body">
-        <h5 class="card-title products-title">${category.name}</h5>
-        <p class="card-text"> <span class ="card-point-name">${category.n1}</span> ${category.d1}</p>
-		<p class="card-text"><span class ="card-point-name">${category.n2}</span> ${category.d2}</p>
-		<p class="card-text"><span class ="card-point-name">${category.n3}</span> ${category.d3}</p>
-        </div>
-        </div>
+    content +=
+      ` <div class="card product-card mb-3 col-12 p-0 col-lg-5" >
+          <div class="row no-gutters">
+          <div class="col-md-5 img-col">
+          <img src="./img/asortimentas/${category.img}" class="card-img" alt="image">
           </div>
-          </div>`;
+          <div class="col-md-7">
+          <div class="card-body">
+          <h5 class="card-title products-title">${category.name}</h5>
+          <hr>
+          <p class="card-text"> <span class ="card-point-name">${category.n1}</span> ${category.d1}</p>
+          <p class="card-text"><span class ="card-point-name">${category.n2}</span> ${category.d2}</p>
+          <p class="card-text"><span class ="card-point-name">${category.n3}</span> ${category.d3}</p>
+          </div>
+          </div>
+            </div>
+            </div>`;
   }
 
   HTML = `${content}`;
@@ -35,7 +37,7 @@ function renderGallery(list) {
 function renderStart(data) {
   const DOMproduct = document.querySelectorAll(".card");
   for (let i = 0; i < data.length; i++) {
-    if (data[i].tag !== "prieskoniai") {
+    if (data[i].tag !== "Braškės ir žemuogės") {
       DOMproduct[i].classList.add("d-none");
     }
   }
@@ -43,7 +45,7 @@ function renderStart(data) {
 }
 
 // creating event listeners
-const filterItems = document.querySelectorAll(".catalog-nav .nav-link");
+const filterItems = document.querySelectorAll(".asortimentas-link");
 for (let i = 0; i < filterItems.length; i++) {
   filterItems[i].addEventListener("click", updateGallery);
 }
@@ -63,6 +65,7 @@ function updateGallery(event) {
   }
   return;
 }
+
 
 //*************** NAVIGATION
 
@@ -129,8 +132,8 @@ function scrollFunction() {
 
 //*************** ACTIVE LINK
 
-let link = document.querySelectorAll(".nav-link");
-let link2 = document.querySelectorAll(".link");
+let link = document.querySelectorAll(".asortimentas-link");
+// let link2 = document.querySelectorAll(".link");
 
 link.forEach(links => {
   links.addEventListener("click", function() {
@@ -139,9 +142,9 @@ link.forEach(links => {
   });
 });
 
-link2.forEach(links => {
-  links.addEventListener("click", function() {
-    link2.forEach(link2 => link2.classList.remove("aktyvi"));
-    this.classList.add("aktyvi");
-  });
-});
+// link2.forEach(links => {
+//   links.addEventListener("click", function() {
+//     link2.forEach(link2 => link2.classList.remove("aktyvi"));
+//     this.classList.add("aktyvi");
+//   });
+// });
