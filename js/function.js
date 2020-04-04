@@ -10,12 +10,12 @@ function renderGallery(list) {
     const category = list[i];
 
     content +=
-      ` <div class="card product-card mb-3 col-12 p-0 col-lg-5" >
+      ` <div class="card product-card mb-3 col-10 p-0 col-xl-5 mx-4 mb-4 border-none" >
           <div class="row no-gutters">
-          <div class="col-md-5 img-col">
-          <img src="./img/asortimentas/${category.img}" class="card-img" alt="image">
+          <div class="col-md-6 img-col">
+          <img class="card-img" src="./img/asortimentas/${category.img}" class="card-img" alt="image">
           </div>
-          <div class="col-md-7">
+          <div class="col-md-6">
           <div class="card-body">
           <h5 class="card-title products-title">${category.name}</h5>
           <hr>
