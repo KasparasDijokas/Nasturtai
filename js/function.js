@@ -9,8 +9,7 @@ function renderGallery(list) {
   for (let i = 0; i < list.length; i++) {
     const category = list[i];
 
-    content +=
-      ` <div class="card product-card mb-3 col-10 p-0 col-xl-5 mx-4 mb-4 border-none" >
+    content += ` <div class="card product-card mb-3 col-10 p-0 col-xl-5 mx-4 mb-4 border-none" >
           <div class="row no-gutters">
           <div class="col-md-6 img-col">
           <img class="card-img" src="./img/asortimentas/${category.img}" class="card-img" alt="image">
@@ -33,22 +32,63 @@ function renderGallery(list) {
   return;
 }
 
-// render prieskoniai uzejus i products.html
-function renderStart(data) {
-  const DOMproduct = document.querySelectorAll(".card");
-  for (let i = 0; i < data.length; i++) {
-    if (data[i].tag !== "Braškės ir žemuogės") {
-      DOMproduct[i].classList.add("d-none");
-    }
-  }
-  return;
-}
-
-// creating event listeners
+// creating event listeners for nav
 const filterItems = document.querySelectorAll(".asortimentas-link");
 for (let i = 0; i < filterItems.length; i++) {
   filterItems[i].addEventListener("click", updateGallery);
 }
+
+// creating event listeners index section
+const linkArray = [];
+const linkas = document.querySelectorAll(".linkas");
+for (let i = 0; i < linkas.length; i++) {
+  linkas[i].addEventListener("click", () => {
+    const filter = event.target.textContent.toUpperCase();
+    linkArray.push(filter);
+    sessionStorage.setItem("key", linkArray);
+  });
+}
+
+// render html uzejus i products.html
+function renderStart(data) {
+  const DOMproduct = document.querySelectorAll(".card");
+  let array = sessionStorage.getItem("key");
+
+  for (let i = 0; i < data.length; i++) {
+    if (array === null) {
+      for (let j = 0; j < data.length; j++) {
+        if (data[i].tag !== "Braškės ir žemuogės") {
+          DOMproduct[i].classList.add("d-none");
+        }
+      }
+      // jei paspaustas linkas is index.html
+    } else if (data[i].tag.toUpperCase() !== array) { 
+      DOMproduct[i].classList.add("d-none");
+      //active class jei ateina is index.html
+      for (let i = 0; i < link.length; i++) {
+        if (array === link[i].innerText.toUpperCase()) {
+          link[i].classList.add("active");
+        } else {
+          link[i].classList.remove("active");
+        }
+      }
+    }
+  }
+  sessionStorage.clear();
+  return;
+}
+
+//*************** ACTIVE LINK
+
+const link = document.querySelectorAll(".asortimentas-link");
+
+link.forEach(links => {
+  links.addEventListener("click", function() {
+    link.forEach(link => link.classList.remove("active"));
+    this.classList.add("active");
+  });
+});
+
 
 // update gallery
 function updateGallery(event) {
@@ -65,7 +105,6 @@ function updateGallery(event) {
   }
   return;
 }
-
 
 //*************** NAVIGATION
 
@@ -129,22 +168,3 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-
-//*************** ACTIVE LINK
-
-let link = document.querySelectorAll(".asortimentas-link");
-// let link2 = document.querySelectorAll(".link");
-
-link.forEach(links => {
-  links.addEventListener("click", function() {
-    link.forEach(link => link.classList.remove("active"));
-    this.classList.add("active");
-  });
-});
-
-// link2.forEach(links => {
-//   links.addEventListener("click", function() {
-//     link2.forEach(link2 => link2.classList.remove("aktyvi"));
-//     this.classList.add("aktyvi");
-//   });
-// });

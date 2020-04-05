@@ -109,7 +109,39 @@ body {
 
 .container-contact {
     flex: 1;
-    margin-top: 3rem;
+    margin-top: 5rem;
+}
+
+/* // left side */
+
+.top h2 {
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.top h2::before {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    background-color: #BCBCBC;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+.top h2::after {
+    content: '';
+    display: inline-block;
+    width: 120px;
+    height: 2px;
+    background-color: #BCBCBC;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+}
+
+.contact-icon {
+    width: 50px;
 }
 
 /*************** DELIVERY ****************/

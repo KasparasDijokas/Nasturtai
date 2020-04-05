@@ -14,7 +14,7 @@
 }
 .nav-links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 60%;
     margin-bottom: 0;
     padding: 0;
@@ -29,8 +29,10 @@
     color: #fff;
     font-size: 1.1rem;
     letter-spacing: 1px;
-    font-family: 'Work Sans', sans-serif;
+    /* font-family: 'Work Sans', sans-serif; */
 }
+
+
 
 /*************** BURGER ****************/
 .burger {
@@ -66,6 +68,10 @@ a::after {
     width: 100%;
     transition: width .3s;
 }
+.main-nav .logo a:hover::after,
+.main-nav-2 .logo a:hover::after {
+    width: 0%;
+}
 .footer-nav a:hover::after {
     width: 100%;
     background-color: #999;
@@ -79,7 +85,6 @@ a::after {
     width: 100%;
     transition: width .3s;
 }
-
 
 .nav-link {
     font-size: 1.125rem;
