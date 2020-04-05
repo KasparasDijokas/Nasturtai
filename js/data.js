@@ -80,7 +80,7 @@ const prekes = [
 		n1: "SEZONIŠKUMAS: ",
 		n2: "RŪŠIS: ",
 		n3: "AUGINIMAS: ",
-        img: "rozmarinai.jfif",
+        img: "rozmarinas.png",
         tag: "prieskoniai"
       },
       {
@@ -182,20 +182,20 @@ const prekes = [
       {
         name: "Čili pipirai",
         price: 0,
-		d1: "Vienmetis prieskoninis augalas.",
+		d1: "Raudoni.",
 		d2: "Galima auginti visus metus ant palangės, terasoje, balkone. Tačiau norint auginti darže arba šiltnamyje šalia kitų saldžiųjų paprikų, reiktų palaikyti tarp jų atstumą, mat paprikos vienos kitai gali perduoti savo skonį.",
 		d3: "",
 		n1: "RŪŠIS: ",
 		n2: "AUGINIMAS: ",
 		n3: "",
-        img: "cili.jfif",
+        img: "cili.jpg",
         tag: "Daržovių daigai"
       },
       {
         name: "Agurkai",
         price: 0,
 		d1: "Mirabelle (savidulkiai), Rodničiok, Stremski.",
-		d2: "Laistyti agurkus reikia gausiai ir, jei įmanoma, sušilusiu vandeniu. Pradėjus derėti, agurkus reikia skinti, bent 1-2 kartus per savaitę. Dideli agurkai išnaudoja daug maistingų medžiagų, tad sulėtėja naujų agurkų augimas, be to, skynimas skatina agurką užmegzti naujų vaisių.",
+		d2: "Laistyti agurkus reikia gausiai ir, jei įmanoma, sušilusiu vandeniu. Pradėjus derėti, agurkus reikia skinti bent 1-2 kartus per savaitę. Dideli agurkai išnaudoja daug maistingų medžiagų, tad sulėtėja naujų agurkų augimas, be to, skynimas skatina agurką užmegzti naujų vaisių.",
 		d3: "",
 		n1: "RŪŠIS: ",
 		n2: "AUGINIMAS: ",
@@ -207,7 +207,7 @@ const prekes = [
         name: "Moliūgai",
         price: 0,
 		d1: "Muskatiniai.",
-		d2: "Auginant moliūgus, ant augalo paprastai paliekama po 3-4, o norint užauginti ypač stambius vaisius – tik 1-2 užmegztus vaisius. Kitos vaisių užuomazgos nuskinamos, žiedams dar neišsiskleidus. Kad moliūgai užaugtų gražesni juo kelis kartus galima apversti nepersukant virkšties.",
+		d2: "Auginant moliūgus, ant augalo paprastai paliekama po 3-4 vaisius, o norint užauginti ypač stambius vaisius – tik 1-2. Kitos vaisių užuomazgos nuskinamos, žiedams dar neišsiskleidus. Kad moliūgai užaugtų gražesni juo kelis kartus galima apversti nepersukant virkšties.",
 		d3: "",
 		n1: "RŪŠIS: ",
 		n2: "AUGINIMAS: ",
@@ -267,7 +267,7 @@ const prekes = [
         name: "Burokėliai",
         price: 0,
 		d1: "Apvalūs.",
-		d2: "Burokėliai yra nereiklūs, gerai auga lengvoje ar vidutinio sunkumo priemolio ar priesmėlio dirvoje. Jų reguliariai laistyti nebūtina, patartina purenti, neleisti užgožti piktožolėms.",
+		d2: "Burokėliai yra nereiklūs, gerai auga lengvoje ar vidutinio sunkumo priemolio ar priesmėlio dirvoje. Jų reguliariai laistyti nebūtina, patartina purenti, neleisti užgožti piktžolėms.",
 		d3: "",
 		n1: "RŪŠIS: ",
 		n2: "AUGINIMAS: ",
@@ -278,7 +278,7 @@ const prekes = [
       {
         name: "Baklažanai",
         price: 0,
-		d1: "Apvalūs.",
+		d1: "Pailgi.",
 		d2: "Baklažanai yra jautrūs drėgmės pertekliui. Šias daržoves reikia laistyti gausiai, bet vanduo neturi užsistovėti. Laistydami nedrėkinkite lapų. Vanduo turi būti šiltas. Baklažanai smarkiai šakojasi - šį procesą reikia kontroliuoti. Reiktų palikti ant augalo 3-4 ūglius, o kitus pašalinti. ",
 		d3: "",
 		n1: "RŪŠIS: ",
@@ -396,7 +396,7 @@ const prekes = [
         tag: "Rožių sodinukai"
       },
       {
-        name: "Krūminės (5 veislių)",
+        name: "Krūminės (5 veislės)",
         price: 0,
 		d1: "Žydi ne pavieniais žiedais, o kekėmis.",
 		d2: "1 - 1,5 m.",
@@ -408,7 +408,7 @@ const prekes = [
         tag: "Rožių sodinukai"
       },
       {
-        name: "Vijoklinės (2 veislės)",
+        name: "Vijoklinės (3 veislės)",
         price: 0,
 		d1: "Smulkūs arba stambūs, išsidėstę per visą stiebą.",
 		d2: "1,5 - 2,5 m.",
@@ -464,7 +464,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-        img: "margenis.jfif",
+        img: "margenis.jpg",
         tag: "vasarinės gėlės"
       },
       {
@@ -596,7 +596,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-		img: "verbena.jpg",
+		img: "SvyrantiVerbena.jpg",
         tag: "svyrančios gėlės"
       },
       {
@@ -632,7 +632,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-		img: "pelargonija.jpg", 
+		img: "SvyrantiPalergonija.jpg", 
         tag: "svyrančios gėlės"
       },
       {
