@@ -393,7 +393,7 @@ const prekes = [
 		n2: "AUKŠTIS:",
 		n3: "ŽYDĖJIMAS: ",
         img: "arbatine.jpg",
-        tag: "Rožių sodinukai"
+        tag: "Rožių krūmai"
       },
       {
         name: "Krūminės (5 veislės)",
@@ -405,7 +405,7 @@ const prekes = [
 		n2: "AUKŠTIS: ",
 		n3: "ŽYDĖJIMAS: ",
         img: "krumine.jpg",
-        tag: "Rožių sodinukai"
+        tag: "Rožių krūmai"
       },
       {
         name: "Vijoklinės (3 veislės)",
@@ -417,7 +417,7 @@ const prekes = [
 		n2: "AUKŠTIS: ",
 		n3: "ŽYDĖJIMAS: ",
         img: "vijokline.jpg",
-        tag: "Rožių sodinukai"
+        tag: "Rožių krūmai"
       },
       {
         name: "Floribundinės (10 veislių)",
@@ -429,7 +429,7 @@ const prekes = [
 		n2: "AUKŠTIS: ",
 		n3: "ŽYDĖJIMAS: ",
         img: "floribundine.jpg",
-        tag: "Rožių sodinukai"
+        tag: "Rožių krūmai"
       },
       {
         name: "Medutis",
