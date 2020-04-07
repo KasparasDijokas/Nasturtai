@@ -61,16 +61,9 @@ function dataType(key) {
 function renderStart(data) {
   const DOMproduct = document.querySelectorAll(".card");
   let tagas = sessionStorage.getItem('indexImageTag');
-  console.log(tagas);
 
   for (let i = 0; i < data.length; i++) {
-    if (!tagas) {
-      for (let j = 0; j < data.length; j++) {
-        if (data[i].tag !== "Braškės ir žemuogės") {
-          DOMproduct[i].classList.add("d-none");
-        }
-      } 
-    } else if (data[i].tag.toUpperCase() !== tagas.toUpperCase()) {
+     if (data[i].tag.toUpperCase() !== tagas.toUpperCase()) {
       DOMproduct[i].classList.add("d-none");
     }
         //active class jei ateina is index.html
