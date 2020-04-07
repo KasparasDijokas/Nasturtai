@@ -124,3 +124,12 @@
     opacity: 0.1;
 }
 
+@media (max-width: 1025px) {
+    .product-top:hover .overlay2 {
+        z-index: -1;
+        opacity: 0;
+    }
+    .product-top:hover .asortimentas-img {
+        opacity: 1;
+    }
+}

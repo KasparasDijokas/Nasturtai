@@ -49,34 +49,46 @@ for (let i = 0; i < linkas.length; i++) {
   });
 }
 
+// pasiemu taga is img linko (index.html)
+function dataType(key) {
+  let indexImageTag = key.getAttribute('data-type');
+  sessionStorage.setItem('indexImageTag', indexImageTag);
+}
+// let indexImageTag = sessionStorage.getItem('indexImageTag');
+
+
 // render html uzejus i products.html
 function renderStart(data) {
   const DOMproduct = document.querySelectorAll(".card");
-  let array = sessionStorage.getItem("key");
+  let tagas = sessionStorage.getItem('indexImageTag');
+  console.log(tagas);
 
   for (let i = 0; i < data.length; i++) {
-    if (array === null) {
+    if (!tagas) {
       for (let j = 0; j < data.length; j++) {
         if (data[i].tag !== "Braškės ir žemuogės") {
           DOMproduct[i].classList.add("d-none");
         }
-      }
-      // jei paspaustas linkas is index.html
-    } else if (data[i].tag.toUpperCase() !== array) { 
+      } 
+    } else if (data[i].tag.toUpperCase() !== tagas.toUpperCase()) {
       DOMproduct[i].classList.add("d-none");
-      //active class jei ateina is index.html
-      for (let i = 0; i < link.length; i++) {
-        if (array === link[i].innerText.toUpperCase()) {
-          link[i].classList.add("active");
-        } else {
-          link[i].classList.remove("active");
-        }
-      }
     }
+        //active class jei ateina is index.html
+        for (let i = 0; i < link.length; i++) {
+          if (tagas.toUpperCase() === link[i].innerText.toUpperCase()) {
+            link[i].classList.add("active");
+          } else {
+            link[i].classList.remove("active");
+          }
+        }
   }
   sessionStorage.clear();
   return;
 }
+
+
+
+
 
 //*************** ACTIVE LINK
 

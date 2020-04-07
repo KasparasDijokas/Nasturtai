@@ -66,6 +66,11 @@ body {
       display: flex;
       justify-content: space-around;
   }
+  .footer-social {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
 
 
   @media (max-width: 1024px) {
@@ -106,10 +111,13 @@ body {
     min-height: 100vh;
 }
 
-
 .container-contact {
     flex: 1;
     margin-top: 5rem;
+}
+
+.container-contact .row {
+    margin-bottom: 3rem;
 }
 
 /* // left side */
@@ -141,7 +149,37 @@ body {
 }
 
 .contact-icon {
-    width: 50px;
+    width: 3rem;
+}
+
+
+@media (max-width: 500px) {
+    .container-contact .row {
+        display: flex;
+        justify-content: center;
+    }
+    .top {
+        text-align: center;
+    }
+    .top p {
+        width: 90%;
+        margin: auto;
+    }
+    .top h2::before {
+        bottom: -10px;
+        left: 94px;
+    }
+    .top h2::after {
+        bottom: -18px;
+        left: 94px;
+    }
+    .container-contact {
+        margin-top: 2rem;
+    }
+    .container-contact p {
+        margin-bottom: 2rem;
+    }
+
 }
 
 /*************** DELIVERY ****************/
@@ -149,10 +187,6 @@ body {
 #delivery {
     background-color: #fff;
     padding: 2rem 0 3rem;
-}
-
-#delivery .delivery-card {
-    /* height: auto; */
 }
 
 #delivery .delivery-card p {
