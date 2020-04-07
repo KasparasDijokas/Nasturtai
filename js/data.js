@@ -596,7 +596,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-		img: "SvyrantiVerbena.jpg",
+		img: "svyrantiVerbena.jpg",
         tag: "svyrančios gėlės"
       },
       {
@@ -632,7 +632,7 @@ const prekes = [
 		n1: "ŽIEDAI: ",
 		n2: "LAPAI: ",
 		n3: "PRIEŽIŪRA: ",
-		img: "SvyrantiPalergonija.jpg", 
+		img: "svyrantiPalergonija.jpg", 
         tag: "svyrančios gėlės"
       },
       {
