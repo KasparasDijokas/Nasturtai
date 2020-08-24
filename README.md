@@ -1,3 +1,3 @@
 # Nasturtai
- 
-https://kasparasdijokas.github.io/Nasturtai/.
+
+https://www.nasturta.lt/
